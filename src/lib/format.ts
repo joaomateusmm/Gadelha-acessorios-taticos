@@ -1,13 +1,11 @@
-import type { Pedido } from "./types";
-
 export const SALDO_VOLUS_PP = 1003.39;
 export const SALDO_VOLUS_PM = 1053.59;
 
 export const brl = (v: number) =>
   v.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
 
-export function totalPedido(p: Pedido) {
-  return p.itens.reduce((s, i) => s + i.precoUnitario * i.quantidade, 0);
+export function totalPedido(p: { itens: { precoUnitario: number; quantidade: number }[] }) {
+  return p.itens.reduce((s: number, i: { precoUnitario: number; quantidade: number }) => s + i.precoUnitario * i.quantidade, 0);
 }
 
 export function formatarData(iso: string) {
