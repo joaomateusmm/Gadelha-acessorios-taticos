@@ -15,10 +15,12 @@ import { toast } from "sonner";
 
 import {
   alternarItemSeparadoAction,
+  alternarStatusPacoteAction,
   concluirPedidoSistemaAction,
   excluirPedidoSistemaAction,
   PedidoSistema,
   reverterPedidoSistemaAction,
+  StatusPacote,
 } from "@/actions/pedidos-sistema";
 import { brl } from "@/lib/format";
 
@@ -32,9 +34,35 @@ export function TabelaPedidosSistema({
   const [filtroStatus, setFiltroStatus] = useState<
     "todos" | "Devendo" | "Entregue"
   >("todos");
+  const [ordemData, setOrdemData] = useState<"recentes" | "antigos">(
+    "recentes",
+  );
   const [excluindoId, setExcluindoId] = useState<string | null>(null);
   const [selecionados, setSelecionados] = useState<string[]>([]);
   const [excluindoEmMassa, setExcluindoEmMassa] = useState(false);
+
+  const handleToggleStatusPacote = async (
+    pedidoId: string,
+    currentStatus: StatusPacote,
+  ) => {
+    const nextStatus: StatusPacote =
+      currentStatus === "Criado" ? "Não criado" : "Criado";
+
+    setPedidos((prev) =>
+      prev.map((p) => {
+        if (p.id !== pedidoId) return p;
+        return {
+          ...p,
+          statusPacote: nextStatus,
+        };
+      }),
+    );
+
+    const res = await alternarStatusPacoteAction(pedidoId, nextStatus);
+    if (!res.success) {
+      toast.error("Erro ao atualizar status do pacote.");
+    }
+  };
 
   const handleToggleItem = async (
     pedidoId: string,
@@ -188,16 +216,18 @@ export function TabelaPedidosSistema({
     return acc;
   }, {});
 
-  // Ordena os pedidos de cada dia pelo horário (mais recente/tarde primeiro: ex 23:00 antes de 08:00)
+  // Ordena os pedidos de cada dia pelo horário
   Object.keys(pedidosAgrupadosPorData).forEach((data) => {
     pedidosAgrupadosPorData[data].sort((a, b) => {
       const horaA = a.horarioRegistrado || "00:00";
       const horaB = b.horarioRegistrado || "00:00";
-      return horaB.localeCompare(horaA);
+      return ordemData === "recentes"
+        ? horaB.localeCompare(horaA)
+        : horaA.localeCompare(horaB);
     });
   });
 
-  // Ordenação das datas (formato DD/MM/AAAA) da mais recente para a mais antiga
+  // Ordenação das datas (formato DD/MM/AAAA)
   const datasOrdenadas = Object.keys(pedidosAgrupadosPorData).sort((a, b) => {
     if (a === "Sem Data") return 1;
     if (b === "Sem Data") return -1;
@@ -205,7 +235,7 @@ export function TabelaPedidosSistema({
     const [diaB, mesB, anoB] = b.split("/").map(Number);
     const dateA = new Date(anoA, mesA - 1, diaA).getTime();
     const dateB = new Date(anoB, mesB - 1, diaB).getTime();
-    return dateB - dateA;
+    return ordemData === "recentes" ? dateB - dateA : dateA - dateB;
   });
 
   return (
@@ -240,21 +270,49 @@ export function TabelaPedidosSistema({
           )}
         </div>
 
-        {/* Filtros por Status */}
-        <div className="flex items-center space-x-2 font-mono text-xs">
-          {(["todos", "Devendo", "Entregue"] as const).map((status) => (
+        <div className="flex items-center justify-center gap-2">
+          {/* Filtros por Data */}
+          <div className="flex items-center space-x-2 font-mono text-xs">
             <button
-              key={status}
-              onClick={() => setFiltroStatus(status)}
+              onClick={() => setOrdemData("recentes")}
               className={`border px-3 py-1.5 uppercase transition-all ${
-                filtroStatus === status
+                ordemData === "recentes"
+                  ? "border-neutral-600 bg-neutral-700 font-bold text-white"
+                  : "border-neutral-800 bg-neutral-900 text-neutral-400 hover:border-neutral-600 hover:text-white"
+              }`}
+            >
+              MAIS RECENTES
+            </button>
+            <button
+              onClick={() => setOrdemData("antigos")}
+              className={`border px-3 py-1.5 uppercase transition-all ${
+                ordemData === "antigos"
                   ? "border-white bg-white font-bold text-black"
                   : "border-neutral-800 bg-neutral-900 text-neutral-400 hover:border-neutral-600 hover:text-white"
               }`}
             >
-              {status === "todos" ? "TODOS OS PEDIDOS" : status}
+              MAIS ANTIGOS
             </button>
-          ))}
+          </div>
+
+          <span className="text-neutral-500">|</span>
+
+          {/* Filtros por Status */}
+          <div className="flex items-center space-x-2 font-mono text-xs">
+            {(["todos", "Devendo", "Entregue"] as const).map((status) => (
+              <button
+                key={status}
+                onClick={() => setFiltroStatus(status)}
+                className={`border px-3 py-1.5 uppercase transition-all ${
+                  filtroStatus === status
+                    ? "border-neutral-600 bg-neutral-700 font-bold text-white"
+                    : "border-neutral-800 bg-neutral-900 text-neutral-400 hover:border-neutral-600 hover:text-white"
+                }`}
+              >
+                {status === "todos" ? "TODOS OS PEDIDOS" : status}
+              </button>
+            ))}
+          </div>
         </div>
       </div>
 
@@ -330,10 +388,35 @@ export function TabelaPedidosSistema({
                         </div>
 
                         <div className="flex items-center space-x-2">
+                          <button
+                            type="button"
+                            onClick={() =>
+                              handleToggleStatusPacote(
+                                pedido.id,
+                                pedido.statusPacote,
+                              )
+                            }
+                            className={`cursor-pointer px-2 py-0.5 text-[10px] font-bold uppercase transition-all hover:opacity-80 ${
+                              pedido.statusPacote === "Criado"
+                                ? "border border-emerald-500/40 bg-emerald-600/20 text-emerald-400"
+                                : "border border-neutral-700 bg-neutral-900 text-neutral-400"
+                            }`}
+                          >
+                            Pacote: {pedido.statusPacote || "Não criado"}
+                          </button>
+                          <span
+                            className={`px-2 py-0.5 text-[10px] font-bold uppercase ${
+                              pedido.statusPagamento === "Pago"
+                                ? "border border-emerald-500/40 bg-emerald-600/20 text-emerald-400"
+                                : "border border-amber-500/40 bg-amber-500/20 text-amber-400"
+                            }`}
+                          >
+                            {pedido.statusPagamento || "Não Pago"}
+                          </span>
                           <span
                             className={`px-2 py-0.5 text-[10px] font-bold uppercase ${
                               pedido.statusPedido === "Entregue"
-                                ? "bg-emerald-500 text-black"
+                                ? "border border-emerald-500/40 bg-emerald-600/20 text-emerald-400"
                                 : "border border-amber-500/40 bg-amber-500/20 text-amber-400"
                             }`}
                           >

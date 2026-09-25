@@ -211,6 +211,24 @@ export async function obterPedidoSistemaPorIdAction(id: string): Promise<PedidoS
   }
 }
 
+export async function alternarStatusPacoteAction(pedidoId: string, novoStatus: StatusPacote) {
+  try {
+    await db
+      .update(pedidos)
+      .set({
+        statusPacote: novoStatus,
+        updatedAt: new Date(),
+      })
+      .where(eq(pedidos.id, pedidoId));
+
+    revalidatePath("/admin/pedidos");
+    return { success: true };
+  } catch (error) {
+    console.error("Erro ao alternar status do pacote:", error);
+    return { success: false };
+  }
+}
+
 export async function alternarItemSeparadoAction(itemId: string, novoValor: boolean) {
   try {
     await db
