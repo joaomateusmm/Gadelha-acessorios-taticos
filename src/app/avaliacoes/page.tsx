@@ -3,6 +3,8 @@ import { Star, User } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
+export const dynamic = "force-dynamic";
+
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { db } from "@/db";
