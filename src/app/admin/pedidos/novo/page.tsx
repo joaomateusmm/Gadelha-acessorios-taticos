@@ -250,7 +250,7 @@ export default function RegistrarPedidoPage() {
   }
 
   return (
-    <div className="mx-auto max-w-5xl space-y-8 pt-6 pb-20">
+    <div className="mx-auto space-y-8 pt-6 pb-20">
       <div className="flex items-center gap-4">
         <Link href="/admin/pedidos">
           <Button

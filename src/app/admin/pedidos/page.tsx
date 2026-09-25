@@ -4,6 +4,8 @@ import Link from "next/link";
 import { obterPedidosSistemaAction } from "@/actions/pedidos-sistema";
 import { Button } from "@/components/ui/button";
 
+export const dynamic = "force-dynamic";
+
 import { ExportJsonPedidosButton } from "./components/export-json-button";
 import { ImportJsonPedidosButton } from "./components/import-json-button";
 import { TabelaPedidosSistema } from "./components/tabela-pedidos";

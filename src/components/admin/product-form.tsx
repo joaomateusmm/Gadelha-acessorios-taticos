@@ -82,6 +82,7 @@ const TAMANHOS_NUMERICOS = [
   "50",
   "52",
   "54",
+  "56",
 ];
 const CORES_PADRAO = [
   "Preto",
@@ -184,10 +185,7 @@ export function ProductForm({ initialData }: ProductFormProps) {
   useEffect(() => {
     async function loadData() {
       try {
-        const [cats, bnds] = await Promise.all([
-          getCategories(),
-          getBrands(),
-        ]);
+        const [cats, bnds] = await Promise.all([getCategories(), getBrands()]);
         setCategoriesList(cats);
         setBrandsList(bnds);
       } catch {
@@ -522,7 +520,8 @@ export function ProductForm({ initialData }: ProductFormProps) {
               <CardHeader>
                 <CardTitle className="text-white">Tamanhos e Cores</CardTitle>
                 <CardDescription>
-                  Selecione as opções de tamanho e cor disponíveis para o produto.
+                  Selecione as opções de tamanho e cor disponíveis para o
+                  produto.
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-6">
@@ -532,9 +531,13 @@ export function ProductForm({ initialData }: ProductFormProps) {
                   name="tamanhos"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel className="text-white">Tamanhos Disponíveis</FormLabel>
+                      <FormLabel className="text-white">
+                        Tamanhos Disponíveis
+                      </FormLabel>
                       <div className="space-y-3">
-                        <span className="text-xs font-medium text-neutral-400">Roupas</span>
+                        <span className="text-xs font-medium text-neutral-400">
+                          Roupas
+                        </span>
                         <div className="flex flex-wrap gap-2">
                           {TAMANHOS_ROUPAS.map((t) => {
                             const isSelected = field.value?.includes(t);
@@ -546,14 +549,14 @@ export function ProductForm({ initialData }: ProductFormProps) {
                                   field.onChange(
                                     isSelected
                                       ? field.value.filter((x) => x !== t)
-                                      : [...(field.value || []), t]
+                                      : [...(field.value || []), t],
                                   );
                                 }}
                                 className={cn(
                                   "h-9 min-w-9 rounded-md border px-3 text-xs font-semibold transition-all",
                                   isSelected
                                     ? "border-[#D00000] bg-[#D00000] text-white"
-                                    : "border-white/10 bg-white/5 text-neutral-400 hover:border-white/20 hover:text-white"
+                                    : "border-white/10 bg-white/5 text-neutral-400 hover:border-white/20 hover:text-white",
                                 )}
                               >
                                 {t}
@@ -562,7 +565,9 @@ export function ProductForm({ initialData }: ProductFormProps) {
                           })}
                         </div>
 
-                        <span className="mt-2 block text-xs font-medium text-neutral-400">Numéricos / Calçados</span>
+                        <span className="mt-2 block text-xs font-medium text-neutral-400">
+                          Numéricos / Calçados
+                        </span>
                         <div className="flex flex-wrap gap-2">
                           {TAMANHOS_NUMERICOS.map((t) => {
                             const isSelected = field.value?.includes(t);
@@ -574,14 +579,14 @@ export function ProductForm({ initialData }: ProductFormProps) {
                                   field.onChange(
                                     isSelected
                                       ? field.value.filter((x) => x !== t)
-                                      : [...(field.value || []), t]
+                                      : [...(field.value || []), t],
                                   );
                                 }}
                                 className={cn(
                                   "h-9 min-w-9 rounded-md border px-3 text-xs font-semibold transition-all",
                                   isSelected
                                     ? "border-[#D00000] bg-[#D00000] text-white"
-                                    : "border-white/10 bg-white/5 text-neutral-400 hover:border-white/20 hover:text-white"
+                                    : "border-white/10 bg-white/5 text-neutral-400 hover:border-white/20 hover:text-white",
                                 )}
                               >
                                 {t}
@@ -592,16 +597,20 @@ export function ProductForm({ initialData }: ProductFormProps) {
 
                         {/* Tamanhos Customizados selecionados que não estão nas listas padrão */}
                         {field.value?.filter(
-                          (t) => !TAMANHOS_ROUPAS.includes(t) && !TAMANHOS_NUMERICOS.includes(t)
+                          (t) =>
+                            !TAMANHOS_ROUPAS.includes(t) &&
+                            !TAMANHOS_NUMERICOS.includes(t),
                         ).length > 0 && (
                           <div className="pt-2">
-                            <span className="block text-xs font-medium text-neutral-400">Personalizados</span>
+                            <span className="block text-xs font-medium text-neutral-400">
+                              Personalizados
+                            </span>
                             <div className="mt-1 flex flex-wrap gap-2">
                               {field.value
                                 ?.filter(
                                   (t) =>
                                     !TAMANHOS_ROUPAS.includes(t) &&
-                                    !TAMANHOS_NUMERICOS.includes(t)
+                                    !TAMANHOS_NUMERICOS.includes(t),
                                 )
                                 .map((t) => (
                                   <span
@@ -612,7 +621,9 @@ export function ProductForm({ initialData }: ProductFormProps) {
                                     <button
                                       type="button"
                                       onClick={() =>
-                                        field.onChange(field.value.filter((x) => x !== t))
+                                        field.onChange(
+                                          field.value.filter((x) => x !== t),
+                                        )
                                       }
                                       className="hover:text-red-400"
                                     >
@@ -672,7 +683,9 @@ export function ProductForm({ initialData }: ProductFormProps) {
                   name="cores"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel className="text-white">Cores Disponíveis</FormLabel>
+                      <FormLabel className="text-white">
+                        Cores Disponíveis
+                      </FormLabel>
                       <div className="space-y-3">
                         <div className="flex flex-wrap gap-2">
                           {CORES_PADRAO.map((c) => {
@@ -685,14 +698,14 @@ export function ProductForm({ initialData }: ProductFormProps) {
                                   field.onChange(
                                     isSelected
                                       ? field.value.filter((x) => x !== c)
-                                      : [...(field.value || []), c]
+                                      : [...(field.value || []), c],
                                   );
                                 }}
                                 className={cn(
                                   "h-9 rounded-md border px-3 text-xs font-medium transition-all",
                                   isSelected
                                     ? "border-[#D00000] bg-[#D00000] text-white"
-                                    : "border-white/10 bg-white/5 text-neutral-400 hover:border-white/20 hover:text-white"
+                                    : "border-white/10 bg-white/5 text-neutral-400 hover:border-white/20 hover:text-white",
                                 )}
                               >
                                 {c}
@@ -702,9 +715,12 @@ export function ProductForm({ initialData }: ProductFormProps) {
                         </div>
 
                         {/* Cores Customizadas */}
-                        {field.value?.filter((c) => !CORES_PADRAO.includes(c)).length > 0 && (
+                        {field.value?.filter((c) => !CORES_PADRAO.includes(c))
+                          .length > 0 && (
                           <div className="pt-2">
-                            <span className="block text-xs font-medium text-neutral-400">Personalizadas</span>
+                            <span className="block text-xs font-medium text-neutral-400">
+                              Personalizadas
+                            </span>
                             <div className="mt-1 flex flex-wrap gap-2">
                               {field.value
                                 ?.filter((c) => !CORES_PADRAO.includes(c))
@@ -717,7 +733,9 @@ export function ProductForm({ initialData }: ProductFormProps) {
                                     <button
                                       type="button"
                                       onClick={() =>
-                                        field.onChange(field.value.filter((x) => x !== c))
+                                        field.onChange(
+                                          field.value.filter((x) => x !== c),
+                                        )
                                       }
                                       className="hover:text-red-400"
                                     >

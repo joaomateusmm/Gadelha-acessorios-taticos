@@ -81,6 +81,7 @@ const TAMANHOS_NUMERICOS = [
   "50",
   "52",
   "54",
+  "56",
 ];
 const CORES_PADRAO = [
   "Preto",
@@ -284,7 +285,7 @@ export default function NewProductPage() {
   };
 
   return (
-    <div className="mx-auto max-w-5xl space-y-8 pb-20">
+    <div className="mx-auto space-y-8 pb-20">
       <div className="flex items-center gap-4">
         <Link href="/admin/produtos">
           <Button

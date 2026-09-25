@@ -217,6 +217,7 @@ export async function alternarItemSeparadoAction(itemId: string, novoValor: bool
       .update(itensPedido)
       .set({ separado: novoValor })
       .where(eq(itensPedido.id, itemId));
+    revalidatePath("/admin/pedidos");
     return { success: true };
   } catch (error) {
     console.error("Erro ao alternar item:", error);
@@ -240,6 +241,7 @@ export async function concluirPedidoSistemaAction(pedidoId: string) {
       })
       .where(eq(pedidos.id, pedidoId));
 
+    revalidatePath("/admin/pedidos");
     return { success: true };
   } catch (error) {
     console.error("Erro ao concluir pedido:", error);
@@ -257,6 +259,7 @@ export async function reverterPedidoSistemaAction(pedidoId: string) {
       })
       .where(eq(pedidos.id, pedidoId));
 
+    revalidatePath("/admin/pedidos");
     return { success: true };
   } catch (error) {
     console.error("Erro ao reverter pedido:", error);
@@ -308,6 +311,7 @@ export async function editarPedidoSistemaAction(pedidoId: string, input: EditarP
       );
     }
 
+    revalidatePath("/admin/pedidos");
     return { success: true };
   } catch (error) {
     console.error("Erro ao editar pedido:", error);
@@ -322,6 +326,7 @@ export async function excluirPedidoSistemaAction(pedidoId: string) {
   try {
     await db.delete(itensPedido).where(eq(itensPedido.pedidoId, pedidoId));
     await db.delete(pedidos).where(eq(pedidos.id, pedidoId));
+    revalidatePath("/admin/pedidos");
     return { success: true };
   } catch (error) {
     console.error("Erro ao excluir pedido:", error);
@@ -397,6 +402,7 @@ export async function criarPedidoSistemaAction(input: CriarPedidoInput) {
       );
     }
 
+    revalidatePath("/admin/pedidos");
     return {
       success: true,
       pedidoId: novoPedido.id,
