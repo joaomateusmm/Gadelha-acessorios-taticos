@@ -5,6 +5,8 @@ import { db } from "@/db"; // Certifique-se que o caminho está correto
 import * as schema from "@/db/schema"; // Importa todo o schema
 
 export const auth = betterAuth({
+  secret: process.env.BETTER_AUTH_SECRET,
+  baseURL: process.env.BETTER_AUTH_URL || process.env.NEXT_PUBLIC_APP_URL,
   database: drizzleAdapter(db, {
     provider: "pg", // Você está usando Neon (Postgres)
     schema: schema,

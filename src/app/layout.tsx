@@ -42,6 +42,9 @@ export const metadata: Metadata = {
   title: "Gadelha Acessórios Táticos - Loja Virtual",
   description:
     "Acesso a marcas premium e produtos táticos para a missão. Airsofts com peças raras e Cilindros, Facas com bainha, além de Mochilas, Artigos de Caça, Coldres e Coletes Táticos.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default async function RootLayout({
