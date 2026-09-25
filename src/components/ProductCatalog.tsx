@@ -6,13 +6,19 @@ import { category, product } from "@/db/schema";
 import { ProductCard } from "./ProductCard"; // <--- Importamos o novo componente
 
 export default async function ProductCatalog() {
-  const allCategories = await db.select().from(category);
+  let allCategories: (typeof category.$inferSelect)[] = [];
+  let allProducts: (typeof product.$inferSelect)[] = [];
 
-  const allProducts = await db
-    .select()
-    .from(product)
-    .where(eq(product.status, "active"))
-    .orderBy(desc(product.createdAt));
+  try {
+    allCategories = await db.select().from(category);
+    allProducts = await db
+      .select()
+      .from(product)
+      .where(eq(product.status, "active"))
+      .orderBy(desc(product.createdAt));
+  } catch (err) {
+    console.error("Erro ao carregar catálogo:", err);
+  }
 
   const categoriesWithProducts = allCategories
     .map((cat) => {

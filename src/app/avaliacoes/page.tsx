@@ -22,22 +22,35 @@ const formatDate = (date: Date) =>
   }).format(date);
 
 export default async function AvaliacoesPage() {
-  const rows = await db
-    .select({
-      review: review,
-      user: userTable,
-      product: productTable,
-    })
-    .from(review)
-    .leftJoin(userTable, eq(review.userId, userTable.id))
-    .leftJoin(productTable, eq(review.productId, productTable.id))
-    .orderBy(desc(review.createdAt));
+  let reviews: Array<{
+    id: string;
+    rating: number;
+    comment: string | null;
+    createdAt: Date;
+    user: typeof userTable.$inferSelect | null;
+    product: typeof productTable.$inferSelect | null;
+  }> = [];
 
-  const reviews = rows.map((row) => ({
-    ...row.review,
-    user: row.user,
-    product: row.product,
-  }));
+  try {
+    const rows = await db
+      .select({
+        review: review,
+        user: userTable,
+        product: productTable,
+      })
+      .from(review)
+      .leftJoin(userTable, eq(review.userId, userTable.id))
+      .leftJoin(productTable, eq(review.productId, productTable.id))
+      .orderBy(desc(review.createdAt));
+
+    reviews = rows.map((row) => ({
+      ...row.review,
+      user: row.user,
+      product: row.product,
+    }));
+  } catch (error) {
+    console.error("Erro ao carregar avaliações:", error);
+  }
 
   return (
     <main className="min-h-screen bg-[#010000] text-white">
