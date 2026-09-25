@@ -1,12 +1,10 @@
-import { eq, sql } from "drizzle-orm";
+import { eq } from "drizzle-orm";
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
 import { decreaseProductStock } from "@/actions/stock";
 import { db } from "@/db";
 import {
-  affiliate,
-  commission,
   order,
   orderItem,
   product,
@@ -66,35 +64,7 @@ export async function POST(request: Request) {
     }
     // -----------------------------------
 
-    // --- PROCESSAR COMISSÃO DE AFILIADO ---
-    try {
-      const pendingCommission = await db.query.commission.findFirst({
-        where: eq(commission.orderId, orderId),
-      });
-
-      if (pendingCommission && pendingCommission.status === "pending") {
-        console.log(
-          `💰 Processando comissão de: R$ ${(pendingCommission.amount / 100).toFixed(2)}`,
-        );
-
-        await db
-          .update(commission)
-          .set({ status: "paid" })
-          .where(eq(commission.id, pendingCommission.id));
-
-        await db
-          .update(affiliate)
-          .set({
-            balance: sql`${affiliate.balance} + ${pendingCommission.amount}`,
-            totalEarnings: sql`${affiliate.totalEarnings} + ${pendingCommission.amount}`,
-          })
-          .where(eq(affiliate.id, pendingCommission.affiliateId));
-
-        console.log("✅ Saldo do afiliado atualizado!");
-      }
-    } catch (commError) {
-      console.error("❌ Erro ao processar comissão:", commError);
-    }
+    // -----------------------------------
 
     // 3. Buscar os produtos e seus links de download
     const orderItemsList = await db

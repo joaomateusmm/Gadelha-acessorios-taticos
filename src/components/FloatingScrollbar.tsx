@@ -25,7 +25,7 @@ export default function FloatingScrollbar() {
       clearTimeout(timeoutId);
       timeoutId = setTimeout(() => {
         setIsVisible(false);
-      }, 1000);
+      }, 2000);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -36,12 +36,12 @@ export default function FloatingScrollbar() {
   }, []);
 
   return (
-    <div className="pointer-events-none fixed top-0 right-1 bottom-0 z-[9999] flex w-3 items-center justify-center mix-blend-difference">
+    <div className="pointer-events-none fixed top-0 right-1 bottom-0 z-[9999] flex w-3 items-center justify-center">
       {/* O TRILHO (Invisível, mas mantém a estrutura) */}
       <div className="relative h-[98vh] w-full">
         {/* A PÍLULA FLUTUANTE */}
         <div
-          className={`absolute right-0 w-[6px] rounded-full bg-red-500/20 backdrop-blur-md transition-opacity duration-300 ${
+          className={`absolute right-0 w-[6px] rounded-full bg-emerald-500/20 backdrop-blur-md transition-opacity duration-300 ${
             isVisible ? "opacity-100" : "opacity-0 hover:opacity-100"
           }`}
           style={{

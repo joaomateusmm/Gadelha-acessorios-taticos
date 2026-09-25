@@ -6,8 +6,6 @@ import { Resend } from "resend";
 
 import { db } from "@/db";
 import {
-  affiliate,
-  commission,
   coupon,
   order,
   orderItem,
@@ -209,17 +207,6 @@ export async function createCheckoutSession(
     );
   }
 
-  const cookieStore = await cookies();
-  const affiliateCode = cookieStore.get("affiliate_code")?.value;
-  let activeAffiliate = null;
-  if (affiliateCode) {
-    activeAffiliate = await db.query.affiliate.findFirst({
-      where: eq(affiliate.code, affiliateCode),
-    });
-    if (activeAffiliate && activeAffiliate.userId === userId)
-      activeAffiliate = null;
-  }
-
   const [newOrder] = await db
     .insert(order)
     .values({
@@ -242,42 +229,7 @@ export async function createCheckoutSession(
     })),
   );
 
-  if (activeAffiliate) {
-    try {
-      const productIds = items.map((i) => i.id);
-      const dbProducts = await db
-        .select()
-        .from(product)
-        .where(inArray(product.id, productIds));
-      let totalCommission = 0;
 
-      const discountFactor = finalTotal / (finalTotal + discountAmount);
-
-      for (const item of items) {
-        const dbProd = dbProducts.find((p) => p.id === item.id);
-        const rate = dbProd?.affiliateRate ?? 20;
-
-        const itemOriginalTotal = item.price * item.quantity;
-        const itemPaidTotal = itemOriginalTotal * discountFactor;
-
-        const commissionValue = Math.round(itemPaidTotal * (rate / 100));
-        totalCommission += commissionValue;
-      }
-
-      if (totalCommission > 0) {
-        await db.insert(commission).values({
-          affiliateId: activeAffiliate.id,
-          orderId: newOrder.id,
-          amount: totalCommission,
-          status: "pending",
-          description: `Venda via link: ${affiliateCode}`,
-        });
-        cookieStore.delete("affiliate_code");
-      }
-    } catch (e) {
-      console.error(e);
-    }
-  }
 
   const baseUrl = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
 
@@ -307,7 +259,6 @@ export async function createCheckoutSession(
     metadata: {
       source: "submind",
       user_id: userId,
-      affiliate_id: activeAffiliate?.id || "",
     },
   };
 
@@ -478,9 +429,6 @@ export async function createFreeOrder(
   } catch (e) {
     console.error(e);
   }
-
-  const cookieStore = await cookies();
-  if (cookieStore.get("affiliate_code")) cookieStore.delete("affiliate_code");
 
   return { success: true, orderId: newOrder.id };
 }

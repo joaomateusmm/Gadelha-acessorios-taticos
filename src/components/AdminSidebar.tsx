@@ -123,19 +123,6 @@ export function AdminSidebar({ user }: AdminSidebarProps) {
               </Link>
             </SidebarMenuButton>
           </SidebarMenuItem>
-          {/* Afiliados */}
-          <SidebarMenuItem>
-            <SidebarMenuButton
-              asChild
-              isActive={pathname.startsWith("/admin/afiliados")}
-              className="h-12 text-neutral-400 hover:bg-white/5 hover:text-white data-[active=true]:bg-[#D00000]/10 data-[active=true]:text-[#D00000]"
-            >
-              <Link href="/admin/afiliados">
-                <Users className="mr-2 h-5 w-5" />
-                <span>Afiliados</span>
-              </Link>
-            </SidebarMenuButton>
-          </SidebarMenuItem>
           {/* Avaliaçoes */}
           <SidebarMenuItem>
             <SidebarMenuButton

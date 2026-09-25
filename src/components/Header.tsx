@@ -2,7 +2,6 @@
 
 import {
   ChevronDown,
-  DollarSign,
   Heart,
   Loader2,
   LogIn,
@@ -21,7 +20,6 @@ import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { toast } from "sonner";
 
-import { checkAffiliateStatus } from "@/actions/check-affiliate-status";
 import { checkStockAvailability } from "@/actions/check-stock";
 import { createCheckoutSession } from "@/actions/checkout";
 import { getAllBrands } from "@/actions/get-all-brands";
@@ -115,9 +113,6 @@ export function Header() {
   const [brands, setBrands] = useState<any[]>([]);
   const [isLoadingBrands, setIsLoadingBrands] = useState(true);
 
-  // NOVO: Estado de Afiliado
-  const [isAffiliate, setIsAffiliate] = useState(false);
-
   // --- NOVOS ESTADOS PARA A BARRA DE PESQUISA ---
   const [searchQuery, setSearchQuery] = useState("");
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -161,13 +156,6 @@ export function Header() {
         console.error("Erro ao buscar marcas:", error);
       } finally {
         setIsLoadingBrands(false);
-      }
-
-      try {
-        const status = await checkAffiliateStatus();
-        setIsAffiliate(status);
-      } catch (error) {
-        console.error("Erro ao verificar afiliado:", error);
       }
     };
 
@@ -703,17 +691,6 @@ export function Header() {
                             <ShoppingCart className="h-5 w-5" /> Meus Pedidos
                           </Button>
                         </Link>
-                        {isAffiliate && (
-                          <Link href="/afiliados/painel" className="w-full">
-                            <Button
-                              variant="ghost"
-                              className="h-12 w-full justify-start gap-3 text-neutral-300 hover:bg-white/5 hover:text-white"
-                            >
-                              <DollarSign className="h-5 w-5" /> Painel de
-                              Afiliado
-                            </Button>
-                          </Link>
-                        )}
                       </div>
                       <div className="flex-1"></div>
                       <Button

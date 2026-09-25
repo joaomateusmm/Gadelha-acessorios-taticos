@@ -51,25 +51,25 @@ const PARTNER_LOGOS = [
 export default function HeroSection() {
   return (
     <div className="relative flex min-h-screen w-full flex-col overflow-hidden">
-      {/* --- CAMADA DE FUNDO (SILK) COM FADE-IN ATRASADO --- */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{
-          duration: 1.5, // Leva 2.5 segundos para aparecer totalmente (bem suave)
-          delay: 1, // Espera 1.2 segundos antes de começar (aparece por último)
-          ease: "easeInOut",
-        }}
-        className="pointer-events-none absolute inset-0 z-0"
-      >
-        <Silk
-          speed={12}
-          scale={1}
-          color="#1c2116"
-          noiseIntensity={0.8}
-          rotation={0}
-        />
-      </motion.div>
+        {/* --- CAMADA DE FUNDO (SILK) COM FADE-IN ATRASADO --- */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{
+            duration: 1.5,
+            delay: 0.5,
+            ease: "easeInOut",
+          }}
+          className="pointer-events-none absolute inset-0 z-0 hidden md:block"
+        >
+          <Silk
+            speed={12}
+            scale={1}
+            color="#1c2116"
+            noiseIntensity={0.8}
+            rotation={0}
+          />
+        </motion.div>
 
       <div className="z-[100] w-full">
         <div className="mx-auto flex w-full items-center justify-center">

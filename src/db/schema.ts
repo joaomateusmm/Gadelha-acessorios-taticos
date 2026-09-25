@@ -39,7 +39,6 @@ export const user = pgTable("user", {
   createdAt: timestamp("createdAt").notNull(),
   updatedAt: timestamp("updatedAt").notNull(),
   role: text("role").notNull().default("user"),
-  isAffiliate: boolean("isAffiliate").notNull().default(false),
 });
 
 export const session = pgTable("session", {
@@ -139,7 +138,6 @@ export const product = pgTable("product", {
   isStockUnlimited: boolean("isStockUnlimited").notNull().default(false),
   status: text("status").notNull().default("draft"),
   sales: integer("sales").notNull().default(0),
-  affiliateRate: integer("affiliateRate").default(10),
   createdAt: timestamp("createdAt").notNull().defaultNow(),
   updatedAt: timestamp("updatedAt")
     .notNull()
@@ -210,27 +208,6 @@ export const orderItem = pgTable("orderItem", {
   image: text("image"),
 });
 
-export const affiliate = pgTable("affiliate", {
-  id: text("id")
-    .primaryKey()
-    .$defaultFn(() => crypto.randomUUID()),
-  userId: text("userId")
-    .notNull()
-    .unique() // Garante que um usuário só tem 1 conta de afiliado
-    .references(() => user.id, { onDelete: "cascade" }),
-  code: text("code").notNull().unique(),
-  pixKey: text("pixKey"),
-  pixKeyType: text("pixKeyType"), // email, cpf, phone, random
-  balance: integer("balance").notNull().default(0),
-  totalEarnings: integer("totalEarnings").notNull().default(0),
-  status: text("status").notNull().default("active"), // active, suspended, banned
-  createdAt: timestamp("createdAt").notNull().defaultNow(),
-  updatedAt: timestamp("updatedAt")
-    .notNull()
-    .defaultNow()
-    .$onUpdate(() => new Date()),
-});
-
 export const coupon = pgTable("coupon", {
   id: text("id")
     .primaryKey()
@@ -250,27 +227,6 @@ export const coupon = pgTable("coupon", {
   updatedAt: timestamp("updatedAt")
     .notNull()
     .defaultNow()
-    .$onUpdate(() => new Date()),
-});
-
-export const commission = pgTable("commission", {
-  id: text("id")
-    .primaryKey()
-    .$defaultFn(() => crypto.randomUUID()),
-  affiliateId: text("affiliateId")
-    .notNull()
-    .references(() => affiliate.id, { onDelete: "cascade" }),
-  orderId: text("orderId")
-    .notNull()
-    .references(() => order.id, { onDelete: "cascade" }),
-  amount: integer("amount").notNull(),
-  description: text("description"),
-  status: text("status").notNull().default("pending"),
-  createdAt: timestamp("createdAt").notNull().defaultNow(),
-  updatedAt: timestamp("updatedAt")
-    .notNull()
-    .defaultNow()
-    .$onUpdate(() => new Date()),
 });
 
 // --- SISTEMA DE PEDIDOS DE AGENTES/CLIENTES (BALCÃO) ---
@@ -374,28 +330,3 @@ export const itensPedidoRelations = relations(itensPedido, ({ one }) => ({
   }),
 }));
 
-export const userRelations = relations(user, ({ one }) => ({
-  affiliateProfile: one(affiliate, {
-    fields: [user.id],
-    references: [affiliate.userId],
-  }),
-}));
-
-export const affiliateRelations = relations(affiliate, ({ one, many }) => ({
-  user: one(user, {
-    fields: [affiliate.userId],
-    references: [user.id],
-  }),
-  commissions: many(commission), // <--- Isto permite usar with: { commissions: true }
-}));
-
-export const commissionRelations = relations(commission, ({ one }) => ({
-  affiliate: one(affiliate, {
-    fields: [commission.affiliateId],
-    references: [affiliate.id],
-  }),
-  order: one(order, {
-    fields: [commission.orderId],
-    references: [order.id],
-  }),
-}));
