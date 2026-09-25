@@ -1,0 +1,2300 @@
+[
+  {
+    "codigo": "PED-5882",
+    "cliente": "JARBAS FREITAS FERNANDES",
+    "corporacao": "Polícia Penal",
+    "unidade": "UPI -1",
+    "contato": "",
+    "dataPedido": "22/09/2026",
+    "horarioRegistrado": "10:57",
+    "saldoVolus": 1003.39,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "Vai levar itens por fora: 01 - Mochila G ; 01 - Palmilha 41 ; 01 - Cinto GG",
+    "itens": [
+      {
+        "produtoId": "250d03a1-e0d0-4dd0-9da0-9ca849b5d1b8",
+        "nome": "Calça Tática (RipStop)",
+        "tamanho": "48",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": false
+      },
+      {
+        "produtoId": "24d766a7-5612-4c17-8ae1-5b9c6bfe7603",
+        "nome": "Camisa Gola Polo",
+        "tamanho": "XG",
+        "cor": "Preto",
+        "quantidade": 3,
+        "precoUnitario": 100,
+        "separado": false
+      }
+    ]
+  },
+  {
+    "codigo": "PED-4751",
+    "cliente": "ANTONIO GLAUBER FIALHO CAVALCANTE",
+    "corporacao": "Polícia Penal",
+    "unidade": "",
+    "contato": "(85) 9 9938-3568",
+    "dataPedido": "22/09/2026",
+    "horarioRegistrado": "10:48",
+    "saldoVolus": 790,
+    "saldoPorFora": 10,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "O restante ele ja levou, pra ele falta apenas as 2 polos.",
+    "itens": [
+      {
+        "produtoId": "24d766a7-5612-4c17-8ae1-5b9c6bfe7603",
+        "nome": "Camisa Gola Polo",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 100,
+        "separado": false
+      }
+    ]
+  },
+  {
+    "codigo": "PED-1977",
+    "cliente": "JAIRO DE OLIVEIRA ARAUJO",
+    "corporacao": "Polícia Penal",
+    "unidade": "TIANGUÁ",
+    "contato": "(86) 9 9819-1173",
+    "dataPedido": "22/09/2026",
+    "horarioRegistrado": "09:45",
+    "saldoVolus": 953.39,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "",
+    "itens": [
+      {
+        "produtoId": "250d03a1-e0d0-4dd0-9da0-9ca849b5d1b8",
+        "nome": "Calça Tática (RipStop)",
+        "tamanho": "40",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 250,
+        "separado": false
+      },
+      {
+        "produtoId": "34427a1d-34ae-4d6b-b16e-ed98be7e1fcc",
+        "nome": "Gandola Policia Penal",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": false
+      },
+      {
+        "produtoId": "c0dd1cf5-7d7e-4a58-b9b4-c45a4aa9d002",
+        "nome": "Camisa UV Manga Longa",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": false
+      },
+      {
+        "produtoId": "24d766a7-5612-4c17-8ae1-5b9c6bfe7603",
+        "nome": "Camisa Gola Polo",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": false
+      }
+    ]
+  },
+  {
+    "codigo": "PED-3602",
+    "cliente": "WAGNER DE SOUZA SANTANA",
+    "corporacao": "Polícia Penal",
+    "unidade": "",
+    "contato": "",
+    "dataPedido": "08/12/2026",
+    "horarioRegistrado": "10:24",
+    "saldoVolus": 1003.39,
+    "saldoPorFora": 6.61,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "",
+    "itens": [
+      {
+        "produtoId": "250d03a1-e0d0-4dd0-9da0-9ca849b5d1b8",
+        "nome": "Calça Tática (RipStop)",
+        "tamanho": "46",
+        "cor": "Preto",
+        "quantidade": 3,
+        "precoUnitario": 250,
+        "separado": false
+      },
+      {
+        "produtoId": "8c6d9fb5-3204-4c16-9826-03e509a3da0d",
+        "nome": "Camisa Gola Careca",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 60,
+        "separado": false
+      },
+      {
+        "produtoId": "40989823-1fce-4b17-8f66-9c2773b9a494",
+        "nome": "Boné Tático Policia Penal",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 70,
+        "separado": false
+      }
+    ]
+  },
+  {
+    "codigo": "PED-7093",
+    "cliente": "ALINE GEORGIA DE FREITAS",
+    "corporacao": "Polícia Penal",
+    "unidade": "",
+    "contato": "",
+    "dataPedido": "21/09/2026",
+    "horarioRegistrado": "16:37",
+    "saldoVolus": 1003.39,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "Ela passou o saldo TODO e levou coisas por fora. O saldo dela restante ficou de R$293,00",
+    "itens": [
+      {
+        "produtoId": "c0dd1cf5-7d7e-4a58-b9b4-c45a4aa9d002",
+        "nome": "Camisa UV Manga Longa",
+        "tamanho": "P",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 100,
+        "separado": false
+      }
+    ]
+  },
+  {
+    "codigo": "PED-8761",
+    "cliente": "FRANCISCO HELIO PEIXOTO NETO",
+    "corporacao": "Polícia Penal",
+    "unidade": "SAP",
+    "contato": "(85) 9 9665-1927",
+    "dataPedido": "22/09/2026",
+    "horarioRegistrado": "16:35",
+    "saldoVolus": 1003.39,
+    "saldoPorFora": 6.61,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "",
+    "itens": [
+      {
+        "produtoId": "24d766a7-5612-4c17-8ae1-5b9c6bfe7603",
+        "nome": "Camisa Gola Polo",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 3,
+        "precoUnitario": 100,
+        "separado": false
+      },
+      {
+        "produtoId": "250d03a1-e0d0-4dd0-9da0-9ca849b5d1b8",
+        "nome": "Calça Tática (RipStop)",
+        "tamanho": "40",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": false
+      },
+      {
+        "produtoId": "34427a1d-34ae-4d6b-b16e-ed98be7e1fcc",
+        "nome": "Gandola Policia Penal",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": false
+      },
+      {
+        "produtoId": "70a40e82-26bc-4a58-8924-506db8969a2f",
+        "nome": "Chapeu Tático Policia Penal (Bonie Hat)",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": false
+      },
+      {
+        "produtoId": "8c6d9fb5-3204-4c16-9826-03e509a3da0d",
+        "nome": "Camisa Gola Careca",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 60,
+        "separado": true
+      }
+    ]
+  },
+  {
+    "codigo": "PED-3825",
+    "cliente": "CLEYLSON COSTA DA ROCHA",
+    "corporacao": "Polícia Penal",
+    "unidade": "",
+    "contato": "",
+    "dataPedido": "21/09/2026",
+    "horarioRegistrado": "16:32",
+    "saldoVolus": 960,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "Enviar o pedido junto com o PP ISLAN GLAUBER MOURA DE BARROS",
+    "itens": [
+      {
+        "produtoId": "250d03a1-e0d0-4dd0-9da0-9ca849b5d1b8",
+        "nome": "Calça Tática (RipStop)",
+        "tamanho": "42",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 250,
+        "separado": false
+      },
+      {
+        "produtoId": "24d766a7-5612-4c17-8ae1-5b9c6bfe7603",
+        "nome": "Camisa Gola Polo",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 100,
+        "separado": false
+      },
+      {
+        "produtoId": "c0dd1cf5-7d7e-4a58-b9b4-c45a4aa9d002",
+        "nome": "Camisa UV Manga Longa",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 100,
+        "separado": false
+      },
+      {
+        "produtoId": "8c6d9fb5-3204-4c16-9826-03e509a3da0d",
+        "nome": "Camisa Gola Careca",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 60,
+        "separado": true
+      }
+    ]
+  },
+  {
+    "codigo": "PED-8384",
+    "cliente": "SAMUEL MARCAL DA SILVA",
+    "corporacao": "Polícia Penal",
+    "unidade": "",
+    "contato": "(87) 9 9175-0616",
+    "dataPedido": "22/09/2026",
+    "horarioRegistrado": "16:28",
+    "saldoVolus": 930,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "",
+    "itens": [
+      {
+        "produtoId": "34427a1d-34ae-4d6b-b16e-ed98be7e1fcc",
+        "nome": "Gandola Policia Penal",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": false
+      },
+      {
+        "produtoId": "250d03a1-e0d0-4dd0-9da0-9ca849b5d1b8",
+        "nome": "Calça Tática (RipStop)",
+        "tamanho": "42",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": false
+      },
+      {
+        "produtoId": "8c6d9fb5-3204-4c16-9826-03e509a3da0d",
+        "nome": "Camisa Gola Careca",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 60,
+        "separado": false
+      },
+      {
+        "produtoId": "24d766a7-5612-4c17-8ae1-5b9c6bfe7603",
+        "nome": "Camisa Gola Polo",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": false
+      },
+      {
+        "produtoId": "c0dd1cf5-7d7e-4a58-b9b4-c45a4aa9d002",
+        "nome": "Camisa UV Manga Longa",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": false
+      },
+      {
+        "produtoId": "40989823-1fce-4b17-8f66-9c2773b9a494",
+        "nome": "Boné Tático Policia Penal",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 70,
+        "separado": false
+      },
+      {
+        "produtoId": "70a40e82-26bc-4a58-8924-506db8969a2f",
+        "nome": "Chapeu Tático Policia Penal (Bonie Hat)",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": false
+      }
+    ]
+  },
+  {
+    "codigo": "PED-4659",
+    "cliente": "SOARES",
+    "corporacao": "Polícia Penal",
+    "unidade": "",
+    "contato": "(85) 9 8101-2674",
+    "dataPedido": "21/09/2026",
+    "horarioRegistrado": "16:24",
+    "saldoVolus": 900,
+    "saldoPorFora": 0,
+    "statusPagamento": "Não pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "Ele tentou pagar a distancia o QR code mas nn conseguiu, não sabe mecher muito bem com tecnologia. Quer levar uma Capa de Colete fox Boy de 400 por fora.",
+    "itens": [
+      {
+        "produtoId": "34427a1d-34ae-4d6b-b16e-ed98be7e1fcc",
+        "nome": "Gandola Policia Penal",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": false
+      },
+      {
+        "produtoId": "250d03a1-e0d0-4dd0-9da0-9ca849b5d1b8",
+        "nome": "Calça Tática (RipStop)",
+        "tamanho": "40",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": false
+      }
+    ]
+  },
+  {
+    "codigo": "PED-8981",
+    "cliente": "ISLAN GLAUBER MOURA DE BARROS",
+    "corporacao": "Polícia Penal",
+    "unidade": "CEPIS",
+    "contato": "(85) 9 9764-6654",
+    "dataPedido": "21/09/2026",
+    "horarioRegistrado": "16:19",
+    "saldoVolus": 990,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "Enviar o pedido junto com o CLEYLSON COSTA DA ROCHA",
+    "itens": [
+      {
+        "produtoId": "250d03a1-e0d0-4dd0-9da0-9ca849b5d1b8",
+        "nome": "Calça Tática (RipStop)",
+        "tamanho": "46",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 250,
+        "separado": false
+      },
+      {
+        "produtoId": "8c6d9fb5-3204-4c16-9826-03e509a3da0d",
+        "nome": "Camisa Gola Careca",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 60,
+        "separado": false
+      },
+      {
+        "produtoId": "c0dd1cf5-7d7e-4a58-b9b4-c45a4aa9d002",
+        "nome": "Camisa UV Manga Longa",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": false
+      },
+      {
+        "produtoId": "24d766a7-5612-4c17-8ae1-5b9c6bfe7603",
+        "nome": "Camisa Gola Polo",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": false
+      },
+      {
+        "produtoId": "40989823-1fce-4b17-8f66-9c2773b9a494",
+        "nome": "Boné Tático Policia Penal",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 70,
+        "separado": false
+      }
+    ]
+  },
+  {
+    "codigo": "PED-8685",
+    "cliente": "FRANCISCO EUDES CORREIA DOS SANTOS",
+    "corporacao": "Polícia Penal",
+    "unidade": "UP HORIZONTE",
+    "contato": "",
+    "dataPedido": "21/09/2026",
+    "horarioRegistrado": "16:09",
+    "saldoVolus": 1003.39,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "Esse cliente estava SEM TAMANHO anotado no papel, quem anotou foi o Gledson",
+    "itens": [
+      {
+        "produtoId": "34427a1d-34ae-4d6b-b16e-ed98be7e1fcc",
+        "nome": "Gandola Policia Penal",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": false
+      },
+      {
+        "produtoId": "8c6d9fb5-3204-4c16-9826-03e509a3da0d",
+        "nome": "Camisa Gola Careca",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 60,
+        "separado": true
+      }
+    ]
+  },
+  {
+    "codigo": "PED-1278",
+    "cliente": "SILVEIRA",
+    "corporacao": "Polícia Penal",
+    "unidade": "UP AQUIRAZ",
+    "contato": "(85) 9 8863-8007",
+    "dataPedido": "22/09/2026",
+    "horarioRegistrado": "16:07",
+    "saldoVolus": 60,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "",
+    "itens": [
+      {
+        "produtoId": "8c6d9fb5-3204-4c16-9826-03e509a3da0d",
+        "nome": "Camisa Gola Careca",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 60,
+        "separado": false
+      }
+    ]
+  },
+  {
+    "codigo": "PED-6471",
+    "cliente": "QUEIROZ",
+    "corporacao": "Polícia Penal",
+    "unidade": "GIV",
+    "contato": "",
+    "dataPedido": "22/09/2026",
+    "horarioRegistrado": "16:05",
+    "saldoVolus": 1003.39,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "",
+    "itens": [
+      {
+        "produtoId": "84a7f190-533f-4721-8fd2-1a55e4f664f3",
+        "nome": "Camisa UV Manga Curta",
+        "tamanho": "GG",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 100,
+        "separado": false
+      },
+      {
+        "produtoId": "34427a1d-34ae-4d6b-b16e-ed98be7e1fcc",
+        "nome": "Gandola Policia Penal",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": false
+      },
+      {
+        "produtoId": "250d03a1-e0d0-4dd0-9da0-9ca849b5d1b8",
+        "nome": "Calça Tática (RipStop)",
+        "tamanho": "44",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": false
+      },
+      {
+        "produtoId": "24d766a7-5612-4c17-8ae1-5b9c6bfe7603",
+        "nome": "Camisa Gola Polo",
+        "tamanho": "GG",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": false
+      }
+    ]
+  },
+  {
+    "codigo": "PED-9406",
+    "cliente": "ANDRE LUIS ALCANTARA OLIVEIRA",
+    "corporacao": "Polícia Penal",
+    "unidade": "IMELDA",
+    "contato": "",
+    "dataPedido": "15/09/2026",
+    "horarioRegistrado": "16:03",
+    "saldoVolus": 1003.39,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Criado",
+    "observacao": "",
+    "itens": [
+      {
+        "produtoId": "34427a1d-34ae-4d6b-b16e-ed98be7e1fcc",
+        "nome": "Gandola Policia Penal",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": true
+      }
+    ]
+  },
+  {
+    "codigo": "PED-4734",
+    "cliente": "BRUNO LISARDE CAVALCANTE",
+    "corporacao": "Polícia Penal",
+    "unidade": "GIV",
+    "contato": "(85) 9 9938-3568",
+    "dataPedido": "08/08/2026",
+    "horarioRegistrado": "15:54",
+    "saldoVolus": 250,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "Por algum motivo o nome dele ta aparecendo pago apenas 250 no vólus",
+    "itens": [
+      {
+        "produtoId": "34427a1d-34ae-4d6b-b16e-ed98be7e1fcc",
+        "nome": "Gandola Policia Penal",
+        "tamanho": "P",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": false
+      },
+      {
+        "produtoId": "250d03a1-e0d0-4dd0-9da0-9ca849b5d1b8",
+        "nome": "Calça Tática (RipStop)",
+        "tamanho": "44",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": false
+      }
+    ]
+  },
+  {
+    "codigo": "PED-4991",
+    "cliente": "ERISON MOZART DA SILVA SANTOS",
+    "corporacao": "Polícia Penal",
+    "unidade": "",
+    "contato": "(86) 9 9955-3702",
+    "dataPedido": "22/09/2026",
+    "horarioRegistrado": "15:33",
+    "saldoVolus": 523.39,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "",
+    "itens": [
+      {
+        "produtoId": "250d03a1-e0d0-4dd0-9da0-9ca849b5d1b8",
+        "nome": "Calça Tática (RipStop)",
+        "tamanho": "42",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": false
+      }
+    ]
+  },
+  {
+    "codigo": "PED-4567",
+    "cliente": "FRANCISCO EDILSON DE ARAÚJO MARTINS",
+    "corporacao": "Polícia Penal",
+    "unidade": "",
+    "contato": "(85) 9 8610-5596",
+    "dataPedido": "22/09/2026",
+    "horarioRegistrado": "15:13",
+    "saldoVolus": 450,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "",
+    "itens": [
+      {
+        "produtoId": "250d03a1-e0d0-4dd0-9da0-9ca849b5d1b8",
+        "nome": "Calça Tática (RipStop)",
+        "tamanho": "42",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": false
+      },
+      {
+        "produtoId": "c0dd1cf5-7d7e-4a58-b9b4-c45a4aa9d002",
+        "nome": "Camisa UV Manga Longa",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": false
+      },
+      {
+        "produtoId": "24d766a7-5612-4c17-8ae1-5b9c6bfe7603",
+        "nome": "Camisa Gola Polo",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": false
+      }
+    ]
+  },
+  {
+    "codigo": "PED-9267",
+    "cliente": "FRANCISCO ROGERIO DA SILVA",
+    "corporacao": "Polícia Penal",
+    "unidade": "",
+    "contato": "(85) 9 8871-4036",
+    "dataPedido": "21/09/2026",
+    "horarioRegistrado": "14:43",
+    "saldoVolus": 1003.39,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "Tira",
+    "itens": [
+      {
+        "produtoId": "250d03a1-e0d0-4dd0-9da0-9ca849b5d1b8",
+        "nome": "Calça Tática (RipStop)",
+        "tamanho": "42",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 250,
+        "separado": false
+      },
+      {
+        "produtoId": "c0dd1cf5-7d7e-4a58-b9b4-c45a4aa9d002",
+        "nome": "Camisa UV Manga Longa",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": false
+      },
+      {
+        "produtoId": "40989823-1fce-4b17-8f66-9c2773b9a494",
+        "nome": "Boné Tático Policia Penal",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 70,
+        "separado": false
+      },
+      {
+        "produtoId": "24d766a7-5612-4c17-8ae1-5b9c6bfe7603",
+        "nome": "Camisa Gola Polo",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 100,
+        "separado": false
+      },
+      {
+        "produtoId": "8c6d9fb5-3204-4c16-9826-03e509a3da0d",
+        "nome": "Camisa Gola Careca",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 60,
+        "separado": false
+      }
+    ]
+  },
+  {
+    "codigo": "PED-9863",
+    "cliente": "JAILSON MUNIZ MACEDO",
+    "corporacao": "Polícia Penal",
+    "unidade": "UPI1",
+    "contato": "(85) 9 9853-9767",
+    "dataPedido": "22/09/2026",
+    "horarioRegistrado": "15:51",
+    "saldoVolus": 1003.39,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Criado",
+    "observacao": "",
+    "itens": [
+      {
+        "produtoId": "8c6d9fb5-3204-4c16-9826-03e509a3da0d",
+        "nome": "Camisa Gola Careca",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 4,
+        "precoUnitario": 60,
+        "separado": false
+      },
+      {
+        "produtoId": "250d03a1-e0d0-4dd0-9da0-9ca849b5d1b8",
+        "nome": "Calça Tática (RipStop)",
+        "tamanho": "46",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": false
+      },
+      {
+        "produtoId": "34427a1d-34ae-4d6b-b16e-ed98be7e1fcc",
+        "nome": "Gandola Policia Penal",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 250,
+        "separado": false
+      }
+    ]
+  },
+  {
+    "codigo": "PED-2153",
+    "cliente": "ROMULO RAMALHO LEITE",
+    "corporacao": "Polícia Penal",
+    "unidade": "PIRC",
+    "contato": "(85) 9 9621-7332",
+    "dataPedido": "22/09/2026",
+    "horarioRegistrado": "11:48",
+    "saldoVolus": 1003.39,
+    "saldoPorFora": 126.61,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "",
+    "itens": [
+      {
+        "produtoId": "250d03a1-e0d0-4dd0-9da0-9ca849b5d1b8",
+        "nome": "Calça Tática (RipStop)",
+        "tamanho": "44",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 250,
+        "separado": false
+      },
+      {
+        "produtoId": "34427a1d-34ae-4d6b-b16e-ed98be7e1fcc",
+        "nome": "Gandola Policia Penal",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": false
+      },
+      {
+        "produtoId": "8c6d9fb5-3204-4c16-9826-03e509a3da0d",
+        "nome": "Camisa Gola Careca",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 3,
+        "precoUnitario": 60,
+        "separado": false
+      },
+      {
+        "produtoId": "c0dd1cf5-7d7e-4a58-b9b4-c45a4aa9d002",
+        "nome": "Camisa UV Manga Longa",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": false
+      }
+    ]
+  },
+  {
+    "codigo": "PED-8901",
+    "cliente": "GERALDO SOUSA DE LIMA",
+    "corporacao": "Polícia Penal",
+    "unidade": "PACATUBA",
+    "contato": "",
+    "dataPedido": "22/09/2026",
+    "horarioRegistrado": "11:46",
+    "saldoVolus": 970,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "",
+    "itens": [
+      {
+        "produtoId": "34427a1d-34ae-4d6b-b16e-ed98be7e1fcc",
+        "nome": "Gandola Policia Penal",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": false
+      },
+      {
+        "produtoId": "c0dd1cf5-7d7e-4a58-b9b4-c45a4aa9d002",
+        "nome": "Camisa UV Manga Longa",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": true
+      },
+      {
+        "produtoId": "8c6d9fb5-3204-4c16-9826-03e509a3da0d",
+        "nome": "Camisa Gola Careca",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 60,
+        "separado": true
+      }
+    ]
+  },
+  {
+    "codigo": "PED-8957",
+    "cliente": "FRANCISCO GILMAR DE CASTRO",
+    "corporacao": "Polícia Penal",
+    "unidade": "PACATUBA",
+    "contato": "",
+    "dataPedido": "22/09/2026",
+    "horarioRegistrado": "11:43",
+    "saldoVolus": 1003.39,
+    "saldoPorFora": 6.61,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "",
+    "itens": [
+      {
+        "produtoId": "c0dd1cf5-7d7e-4a58-b9b4-c45a4aa9d002",
+        "nome": "Camisa UV Manga Longa",
+        "tamanho": "GG",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 100,
+        "separado": false
+      },
+      {
+        "produtoId": "24d766a7-5612-4c17-8ae1-5b9c6bfe7603",
+        "nome": "Camisa Gola Polo",
+        "tamanho": "GG",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 100,
+        "separado": false
+      },
+      {
+        "produtoId": "250d03a1-e0d0-4dd0-9da0-9ca849b5d1b8",
+        "nome": "Calça Tática (RipStop)",
+        "tamanho": "44",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": false
+      },
+      {
+        "produtoId": "8c6d9fb5-3204-4c16-9826-03e509a3da0d",
+        "nome": "Camisa Gola Careca",
+        "tamanho": "GG",
+        "cor": "Preto",
+        "quantidade": 4,
+        "precoUnitario": 60,
+        "separado": false
+      },
+      {
+        "produtoId": "8c6d9fb5-3204-4c16-9826-03e509a3da0d",
+        "nome": "Camisa Gola Careca",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 60,
+        "separado": true
+      }
+    ]
+  },
+  {
+    "codigo": "PED-6455",
+    "cliente": "JOSE AILO DO CARMO FILHO",
+    "corporacao": "Polícia Penal",
+    "unidade": "PACATUBA",
+    "contato": "",
+    "dataPedido": "22/09/2026",
+    "horarioRegistrado": "11:40",
+    "saldoVolus": 980,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "ele quer a camisa careca no tecido MACIO de algodão",
+    "itens": [
+      {
+        "produtoId": "c0dd1cf5-7d7e-4a58-b9b4-c45a4aa9d002",
+        "nome": "Camisa UV Manga Longa",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": false
+      },
+      {
+        "produtoId": "34427a1d-34ae-4d6b-b16e-ed98be7e1fcc",
+        "nome": "Gandola Policia Penal",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": false
+      },
+      {
+        "produtoId": "8c6d9fb5-3204-4c16-9826-03e509a3da0d",
+        "nome": "Camisa Gola Careca",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 60,
+        "separado": true
+      }
+    ]
+  },
+  {
+    "codigo": "PED-3659",
+    "cliente": "FRANCISCO JAMES MOREIRA RODRIG",
+    "corporacao": "Polícia Penal",
+    "unidade": "",
+    "contato": "(85) 9 9868-4669",
+    "dataPedido": "22/09/2026",
+    "horarioRegistrado": "11:38",
+    "saldoVolus": 1003.39,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "alterar o tamanho da calça para 56 depois",
+    "itens": [
+      {
+        "produtoId": "34427a1d-34ae-4d6b-b16e-ed98be7e1fcc",
+        "nome": "Gandola Policia Penal",
+        "tamanho": "GG",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": false
+      },
+      {
+        "produtoId": "250d03a1-e0d0-4dd0-9da0-9ca849b5d1b8",
+        "nome": "Calça Tática (RipStop)",
+        "tamanho": "54",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 250,
+        "separado": false
+      }
+    ]
+  },
+  {
+    "codigo": "PED-8474",
+    "cliente": "WANDEMBERG DE MATOS MARQUES",
+    "corporacao": "Polícia Penal",
+    "unidade": "",
+    "contato": "(85) 9 9235-5115",
+    "dataPedido": "22/09/2026",
+    "horarioRegistrado": "11:35",
+    "saldoVolus": 1003.39,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "",
+    "itens": [
+      {
+        "produtoId": "34427a1d-34ae-4d6b-b16e-ed98be7e1fcc",
+        "nome": "Gandola Policia Penal",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": false
+      },
+      {
+        "produtoId": "c0dd1cf5-7d7e-4a58-b9b4-c45a4aa9d002",
+        "nome": "Camisa UV Manga Longa",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 100,
+        "separado": false
+      }
+    ]
+  },
+  {
+    "codigo": "PED-1359",
+    "cliente": "NATANAEL FIALHO DE SOUSA",
+    "corporacao": "Polícia Penal",
+    "unidade": "UIPECT TIANGUÁ",
+    "contato": "(88) 9 9806-2995",
+    "dataPedido": "22/09/2026",
+    "horarioRegistrado": "11:33",
+    "saldoVolus": 1000,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "",
+    "itens": [
+      {
+        "produtoId": "34427a1d-34ae-4d6b-b16e-ed98be7e1fcc",
+        "nome": "Gandola Policia Penal",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": false
+      },
+      {
+        "produtoId": "250d03a1-e0d0-4dd0-9da0-9ca849b5d1b8",
+        "nome": "Calça Tática (RipStop)",
+        "tamanho": "46",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 250,
+        "separado": false
+      },
+      {
+        "produtoId": "c0dd1cf5-7d7e-4a58-b9b4-c45a4aa9d002",
+        "nome": "Camisa UV Manga Longa",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 100,
+        "separado": false
+      }
+    ]
+  },
+  {
+    "codigo": "PED-2184",
+    "cliente": "JOAO VICTOR DE SOUZA ARAGAO",
+    "corporacao": "Polícia Penal",
+    "unidade": "UP SOBRAL",
+    "contato": "(88) 9 9279-3245",
+    "dataPedido": "22/09/2026",
+    "horarioRegistrado": "11:30",
+    "saldoVolus": 1003.39,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "",
+    "itens": [
+      {
+        "produtoId": "40989823-1fce-4b17-8f66-9c2773b9a494",
+        "nome": "Boné Tático Policia Penal",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 70,
+        "separado": false
+      },
+      {
+        "produtoId": "250d03a1-e0d0-4dd0-9da0-9ca849b5d1b8",
+        "nome": "Calça Tática (RipStop)",
+        "tamanho": "44",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": false
+      },
+      {
+        "produtoId": "c0dd1cf5-7d7e-4a58-b9b4-c45a4aa9d002",
+        "nome": "Camisa UV Manga Longa",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 3,
+        "precoUnitario": 100,
+        "separado": false
+      },
+      {
+        "produtoId": "8c6d9fb5-3204-4c16-9826-03e509a3da0d",
+        "nome": "Camisa Gola Careca",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 60,
+        "separado": false
+      },
+      {
+        "produtoId": "34427a1d-34ae-4d6b-b16e-ed98be7e1fcc",
+        "nome": "Gandola Policia Penal",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": false
+      }
+    ]
+  },
+  {
+    "codigo": "PED-6088",
+    "cliente": "E.SANTOS",
+    "corporacao": "Polícia Penal",
+    "unidade": "UP CALCAIA",
+    "contato": "",
+    "dataPedido": "22/09/2026",
+    "horarioRegistrado": "11:26",
+    "saldoVolus": 1003.39,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "Quer levar produtos por fora: 1 Óculos + 1 Spray",
+    "itens": [
+      {
+        "produtoId": "250d03a1-e0d0-4dd0-9da0-9ca849b5d1b8",
+        "nome": "Calça Tática (RipStop)",
+        "tamanho": "42",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 250,
+        "separado": false
+      },
+      {
+        "produtoId": "70a40e82-26bc-4a58-8924-506db8969a2f",
+        "nome": "Chapeu Tático Policia Penal (Bonie Hat)",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": false
+      },
+      {
+        "produtoId": "c0dd1cf5-7d7e-4a58-b9b4-c45a4aa9d002",
+        "nome": "Camisa UV Manga Longa",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": false
+      },
+      {
+        "produtoId": "34427a1d-34ae-4d6b-b16e-ed98be7e1fcc",
+        "nome": "Gandola Policia Penal",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": false
+      },
+      {
+        "produtoId": "8c6d9fb5-3204-4c16-9826-03e509a3da0d",
+        "nome": "Camisa Gola Careca",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 60,
+        "separado": true
+      }
+    ]
+  },
+  {
+    "codigo": "PED-5224",
+    "cliente": "CARLOS JOAB SOUSA DE SENA",
+    "corporacao": "Polícia Penal",
+    "unidade": "UP AQUIRAZ",
+    "contato": "",
+    "dataPedido": "22/09/2026",
+    "horarioRegistrado": "11:08",
+    "saldoVolus": 900,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "Uma das calças ele quer INVICTUS",
+    "itens": [
+      {
+        "produtoId": "c0dd1cf5-7d7e-4a58-b9b4-c45a4aa9d002",
+        "nome": "Camisa UV Manga Longa",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 100,
+        "separado": false
+      },
+      {
+        "produtoId": "24d766a7-5612-4c17-8ae1-5b9c6bfe7603",
+        "nome": "Camisa Gola Polo",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 100,
+        "separado": false
+      },
+      {
+        "produtoId": "250d03a1-e0d0-4dd0-9da0-9ca849b5d1b8",
+        "nome": "Calça Tática (RipStop)",
+        "tamanho": "42",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": false
+      },
+      {
+        "produtoId": "250d03a1-e0d0-4dd0-9da0-9ca849b5d1b8",
+        "nome": "Calça Tática (RipStop)",
+        "tamanho": "42",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": false
+      }
+    ]
+  },
+  {
+    "codigo": "PED-3792",
+    "cliente": "ADALBERTO BATISTA LIMA",
+    "corporacao": "Polícia Penal",
+    "unidade": "",
+    "contato": "(85) 9 8782-2812",
+    "dataPedido": "22/09/2026",
+    "horarioRegistrado": "10:58",
+    "saldoVolus": 283.39,
+    "saldoPorFora": 16.61,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "",
+    "itens": [
+      {
+        "produtoId": "c0dd1cf5-7d7e-4a58-b9b4-c45a4aa9d002",
+        "nome": "Camisa UV Manga Longa",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 3,
+        "precoUnitario": 100,
+        "separado": false
+      }
+    ]
+  },
+  {
+    "codigo": "PED-1376",
+    "cliente": "ANTONIO DE PADUA DUARTE MATOS",
+    "corporacao": "Polícia Penal",
+    "unidade": "CPP L1",
+    "contato": "",
+    "dataPedido": "22/09/2026",
+    "horarioRegistrado": "10:46",
+    "saldoVolus": 570,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Entregue",
+    "statusPacote": "Criado",
+    "observacao": "Levou 1 chave de algema por fora. QUANDO ELE VOLTAR, PASSAR O RESTANTE DO SALDO 433,39 POIS NÃO FOI ELE INTEIRO",
+    "itens": [
+      {
+        "produtoId": "8c6d9fb5-3204-4c16-9826-03e509a3da0d",
+        "nome": "Camisa Gola Careca",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 60,
+        "separado": true
+      },
+      {
+        "produtoId": "294e1352-1973-461c-994b-102577b6b4b7",
+        "nome": "Calça Tática (Tactel)",
+        "tamanho": "P",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 200,
+        "separado": true
+      }
+    ]
+  },
+  {
+    "codigo": "PED-2442",
+    "cliente": "ANTONIA DARLENE MARQUES BRANDA",
+    "corporacao": "Polícia Penal",
+    "unidade": "UPF SOBRAL",
+    "contato": "(88) 9 9295-8408",
+    "dataPedido": "22/09/2026",
+    "horarioRegistrado": "10:43",
+    "saldoVolus": 990,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "",
+    "itens": [
+      {
+        "produtoId": "40989823-1fce-4b17-8f66-9c2773b9a494",
+        "nome": "Boné Tático Policia Penal",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 70,
+        "separado": true
+      },
+      {
+        "produtoId": "c0dd1cf5-7d7e-4a58-b9b4-c45a4aa9d002",
+        "nome": "Camisa UV Manga Longa",
+        "tamanho": "P",
+        "cor": "Preto",
+        "quantidade": 3,
+        "precoUnitario": 100,
+        "separado": true
+      },
+      {
+        "produtoId": "294e1352-1973-461c-994b-102577b6b4b7",
+        "nome": "Calça Tática (Tactel)",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 3,
+        "precoUnitario": 200,
+        "separado": true
+      }
+    ]
+  },
+  {
+    "codigo": "PED-2931",
+    "cliente": "THAYLLAN PEREIRA FELIX",
+    "corporacao": "Polícia Penal",
+    "unidade": "CAMOCIM",
+    "contato": "(88) 9 2558-738",
+    "dataPedido": "08/11/2026",
+    "horarioRegistrado": "10:37",
+    "saldoVolus": 970,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "",
+    "itens": [
+      {
+        "produtoId": "34427a1d-34ae-4d6b-b16e-ed98be7e1fcc",
+        "nome": "Gandola Policia Penal",
+        "tamanho": "GG",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": false
+      },
+      {
+        "produtoId": "c0dd1cf5-7d7e-4a58-b9b4-c45a4aa9d002",
+        "nome": "Camisa UV Manga Longa",
+        "tamanho": "GG",
+        "cor": "Preto",
+        "quantidade": 3,
+        "precoUnitario": 100,
+        "separado": false
+      },
+      {
+        "produtoId": "40989823-1fce-4b17-8f66-9c2773b9a494",
+        "nome": "Boné Tático Policia Penal",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 70,
+        "separado": true
+      },
+      {
+        "produtoId": "250d03a1-e0d0-4dd0-9da0-9ca849b5d1b8",
+        "nome": "Calça Tática (RipStop)",
+        "tamanho": "48",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": true
+      },
+      {
+        "produtoId": "24d766a7-5612-4c17-8ae1-5b9c6bfe7603",
+        "nome": "Camisa Gola Polo",
+        "tamanho": "GG",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": false
+      }
+    ]
+  },
+  {
+    "codigo": "PED-4839",
+    "cliente": "JAMES",
+    "corporacao": "Polícia Penal",
+    "unidade": "UP CALCAIA",
+    "contato": "(86) 9 9939-9377",
+    "dataPedido": "08/12/2026",
+    "horarioRegistrado": "10:33",
+    "saldoVolus": 1003.39,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Entregue",
+    "statusPacote": "Criado",
+    "observacao": "Vai trocar a calça por um tamanho maior",
+    "itens": [
+      {
+        "produtoId": "34427a1d-34ae-4d6b-b16e-ed98be7e1fcc",
+        "nome": "Gandola Policia Penal",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": true
+      },
+      {
+        "produtoId": "250d03a1-e0d0-4dd0-9da0-9ca849b5d1b8",
+        "nome": "Calça Tática (RipStop)",
+        "tamanho": "44",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": true
+      }
+    ]
+  },
+  {
+    "codigo": "PED-1541",
+    "cliente": "ELENICE",
+    "corporacao": "Polícia Penal",
+    "unidade": "UPF SOBRAL",
+    "contato": "(85) 9 9412-8356",
+    "dataPedido": "08/12/2026",
+    "horarioRegistrado": "10:28",
+    "saldoVolus": 1003.39,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "",
+    "itens": [
+      {
+        "produtoId": "294e1352-1973-461c-994b-102577b6b4b7",
+        "nome": "Calça Tática (Tactel)",
+        "tamanho": "P",
+        "cor": "Preto",
+        "quantidade": 3,
+        "precoUnitario": 200,
+        "separado": false
+      },
+      {
+        "produtoId": "c0dd1cf5-7d7e-4a58-b9b4-c45a4aa9d002",
+        "nome": "Camisa UV Manga Longa",
+        "tamanho": "P",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 100,
+        "separado": false
+      },
+      {
+        "produtoId": "24d766a7-5612-4c17-8ae1-5b9c6bfe7603",
+        "nome": "Camisa Gola Polo",
+        "tamanho": "P",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 100,
+        "separado": false
+      }
+    ]
+  },
+  {
+    "codigo": "PED-4137",
+    "cliente": "PP SANTOS",
+    "corporacao": "Polícia Penal",
+    "unidade": "",
+    "contato": "",
+    "dataPedido": "08/11/2026",
+    "horarioRegistrado": "10:26",
+    "saldoVolus": 250,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "",
+    "itens": [
+      {
+        "produtoId": "34427a1d-34ae-4d6b-b16e-ed98be7e1fcc",
+        "nome": "Gandola Policia Penal",
+        "tamanho": "P",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": false
+      }
+    ]
+  },
+  {
+    "codigo": "PED-7055",
+    "cliente": "LUIZ JOSÉ BATISTA",
+    "corporacao": "Polícia Penal",
+    "unidade": "",
+    "contato": "(85) 9 9283-5006",
+    "dataPedido": "08/11/2026",
+    "horarioRegistrado": "10:24",
+    "saldoVolus": 1003.39,
+    "saldoPorFora": 10.61,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "",
+    "itens": [
+      {
+        "produtoId": "c0dd1cf5-7d7e-4a58-b9b4-c45a4aa9d002",
+        "nome": "Camisa UV Manga Longa",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": false
+      },
+      {
+        "produtoId": "34427a1d-34ae-4d6b-b16e-ed98be7e1fcc",
+        "nome": "Gandola Policia Penal",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": true
+      },
+      {
+        "produtoId": "250d03a1-e0d0-4dd0-9da0-9ca849b5d1b8",
+        "nome": "Calça Tática (RipStop)",
+        "tamanho": "46",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 250,
+        "separado": true
+      },
+      {
+        "produtoId": "24d766a7-5612-4c17-8ae1-5b9c6bfe7603",
+        "nome": "Camisa Gola Polo",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": true
+      },
+      {
+        "produtoId": "8c6d9fb5-3204-4c16-9826-03e509a3da0d",
+        "nome": "Camisa Gola Careca",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 60,
+        "separado": true
+      }
+    ]
+  },
+  {
+    "codigo": "PED-1334",
+    "cliente": "DA SILVA",
+    "corporacao": "Polícia Penal",
+    "unidade": "MARACANAÚ",
+    "contato": "(89) 9 9695-9119",
+    "dataPedido": "08/10/2026",
+    "horarioRegistrado": "10:02",
+    "saldoVolus": 1003.39,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "Levou coisas FORA do vólus",
+    "itens": [
+      {
+        "produtoId": "c0dd1cf5-7d7e-4a58-b9b4-c45a4aa9d002",
+        "nome": "Camisa UV Manga Longa",
+        "tamanho": "XXG",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": false
+      },
+      {
+        "produtoId": "24d766a7-5612-4c17-8ae1-5b9c6bfe7603",
+        "nome": "Camisa Gola Polo",
+        "tamanho": "XXG",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": false
+      },
+      {
+        "produtoId": "250d03a1-e0d0-4dd0-9da0-9ca849b5d1b8",
+        "nome": "Calça Tática (RipStop)",
+        "tamanho": "52",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 250,
+        "separado": true
+      },
+      {
+        "produtoId": "8c6d9fb5-3204-4c16-9826-03e509a3da0d",
+        "nome": "Camisa Gola Careca",
+        "tamanho": "XXG",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 60,
+        "separado": true
+      },
+      {
+        "produtoId": "40989823-1fce-4b17-8f66-9c2773b9a494",
+        "nome": "Boné Tático Policia Penal",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 70,
+        "separado": true
+      }
+    ]
+  },
+  {
+    "codigo": "PED-1000",
+    "cliente": "MICHEL DE OLIVEIRA BELFORT",
+    "corporacao": "Polícia Penal",
+    "unidade": "UP TOC",
+    "contato": "",
+    "dataPedido": "08/10/2026",
+    "horarioRegistrado": "09:59",
+    "saldoVolus": 1003.39,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "Levou produtos de FORA do vólus",
+    "itens": [
+      {
+        "produtoId": "c0dd1cf5-7d7e-4a58-b9b4-c45a4aa9d002",
+        "nome": "Camisa UV Manga Longa",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": false
+      },
+      {
+        "produtoId": "8c6d9fb5-3204-4c16-9826-03e509a3da0d",
+        "nome": "Camisa Gola Careca",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 60,
+        "separado": true
+      },
+      {
+        "produtoId": "24d766a7-5612-4c17-8ae1-5b9c6bfe7603",
+        "nome": "Camisa Gola Polo",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": true
+      },
+      {
+        "produtoId": "34427a1d-34ae-4d6b-b16e-ed98be7e1fcc",
+        "nome": "Gandola Policia Penal",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": true
+      }
+    ]
+  },
+  {
+    "codigo": "PED-1333",
+    "cliente": "EVA NUBIA MENDES FACUNDO",
+    "corporacao": "Polícia Penal",
+    "unidade": "CGP",
+    "contato": "(85) 9 9950-2506",
+    "dataPedido": "08/10/2026",
+    "horarioRegistrado": "09:57",
+    "saldoVolus": 160,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "",
+    "itens": [
+      {
+        "produtoId": "84a7f190-533f-4721-8fd2-1a55e4f664f3",
+        "nome": "Camisa UV Manga Curta",
+        "tamanho": "P",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": false
+      }
+    ]
+  },
+  {
+    "codigo": "PED-2968",
+    "cliente": "J.SIUSA",
+    "corporacao": "Polícia Penal",
+    "unidade": "TIANGUÁ",
+    "contato": "",
+    "dataPedido": "08/09/2026",
+    "horarioRegistrado": "09:53",
+    "saldoVolus": 1003.39,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "",
+    "itens": [
+      {
+        "produtoId": "8c6d9fb5-3204-4c16-9826-03e509a3da0d",
+        "nome": "Camisa Gola Careca",
+        "tamanho": "P",
+        "cor": "Preto",
+        "quantidade": 3,
+        "precoUnitario": 60,
+        "separado": false
+      },
+      {
+        "produtoId": "24d766a7-5612-4c17-8ae1-5b9c6bfe7603",
+        "nome": "Camisa Gola Polo",
+        "tamanho": "P",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": false
+      },
+      {
+        "produtoId": "250d03a1-e0d0-4dd0-9da0-9ca849b5d1b8",
+        "nome": "Calça Tática (RipStop)",
+        "tamanho": "40",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": true
+      },
+      {
+        "produtoId": "c0dd1cf5-7d7e-4a58-b9b4-c45a4aa9d002",
+        "nome": "Camisa UV Manga Longa",
+        "tamanho": "P",
+        "cor": "Preto",
+        "quantidade": 4,
+        "precoUnitario": 100,
+        "separado": true
+      }
+    ]
+  },
+  {
+    "codigo": "PED-4786",
+    "cliente": "DA SILVA",
+    "corporacao": "Polícia Penal",
+    "unidade": "UP HORIZONTE",
+    "contato": "",
+    "dataPedido": "08/08/2026",
+    "horarioRegistrado": "09:52",
+    "saldoVolus": 200,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "",
+    "itens": [
+      {
+        "produtoId": "c0dd1cf5-7d7e-4a58-b9b4-c45a4aa9d002",
+        "nome": "Camisa UV Manga Longa",
+        "tamanho": "XG",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": false
+      },
+      {
+        "produtoId": "24d766a7-5612-4c17-8ae1-5b9c6bfe7603",
+        "nome": "Camisa Gola Polo",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": true
+      }
+    ]
+  },
+  {
+    "codigo": "PED-7400",
+    "cliente": "DEMETRIUS REGIS DE OLIVEIRA",
+    "corporacao": "Polícia Penal",
+    "unidade": "",
+    "contato": "",
+    "dataPedido": "08/08/2026",
+    "horarioRegistrado": "09:49",
+    "saldoVolus": 1003.39,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "",
+    "itens": [
+      {
+        "produtoId": "c0dd1cf5-7d7e-4a58-b9b4-c45a4aa9d002",
+        "nome": "Camisa UV Manga Longa",
+        "tamanho": "XG",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 100,
+        "separado": false
+      },
+      {
+        "produtoId": "8c6d9fb5-3204-4c16-9826-03e509a3da0d",
+        "nome": "Camisa Gola Careca",
+        "tamanho": "XG",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 60,
+        "separado": false
+      },
+      {
+        "produtoId": "250d03a1-e0d0-4dd0-9da0-9ca849b5d1b8",
+        "nome": "Calça Tática (RipStop)",
+        "tamanho": "54",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 250,
+        "separado": false
+      }
+    ]
+  },
+  {
+    "codigo": "PED-9766",
+    "cliente": "FREITAS",
+    "corporacao": "Polícia Penal",
+    "unidade": "",
+    "contato": "",
+    "dataPedido": "08/08/2026",
+    "horarioRegistrado": "09:44",
+    "saldoVolus": 1003.39,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "",
+    "itens": [
+      {
+        "produtoId": "c0dd1cf5-7d7e-4a58-b9b4-c45a4aa9d002",
+        "nome": "Camisa UV Manga Longa",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": false
+      },
+      {
+        "produtoId": "250d03a1-e0d0-4dd0-9da0-9ca849b5d1b8",
+        "nome": "Calça Tática (RipStop)",
+        "tamanho": "46",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 250,
+        "separado": true
+      },
+      {
+        "produtoId": "24d766a7-5612-4c17-8ae1-5b9c6bfe7603",
+        "nome": "Camisa Gola Polo",
+        "tamanho": "GG",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": true
+      },
+      {
+        "produtoId": "8c6d9fb5-3204-4c16-9826-03e509a3da0d",
+        "nome": "Camisa Gola Careca",
+        "tamanho": "GG",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 60,
+        "separado": true
+      },
+      {
+        "produtoId": "70a40e82-26bc-4a58-8924-506db8969a2f",
+        "nome": "Chapeu Tático Policia Penal (Bonie Hat)",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": true
+      },
+      {
+        "produtoId": "40989823-1fce-4b17-8f66-9c2773b9a494",
+        "nome": "Boné Tático Policia Penal",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 4,
+        "precoUnitario": 70,
+        "separado": true
+      }
+    ]
+  },
+  {
+    "codigo": "PED-9032",
+    "cliente": "LUIZ CARLOS DA SILVA PINHEIRO",
+    "corporacao": "Polícia Penal",
+    "unidade": "",
+    "contato": "",
+    "dataPedido": "08/08/2026",
+    "horarioRegistrado": "09:39",
+    "saldoVolus": 1003.39,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "",
+    "itens": [
+      {
+        "produtoId": "250d03a1-e0d0-4dd0-9da0-9ca849b5d1b8",
+        "nome": "Calça Tática (RipStop)",
+        "tamanho": "44",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 250,
+        "separado": false
+      },
+      {
+        "produtoId": "34427a1d-34ae-4d6b-b16e-ed98be7e1fcc",
+        "nome": "Gandola Policia Penal",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": true
+      },
+      {
+        "produtoId": "c0dd1cf5-7d7e-4a58-b9b4-c45a4aa9d002",
+        "nome": "Camisa UV Manga Longa",
+        "tamanho": "GG",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": true
+      },
+      {
+        "produtoId": "8c6d9fb5-3204-4c16-9826-03e509a3da0d",
+        "nome": "Camisa Gola Careca",
+        "tamanho": "GG",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 60,
+        "separado": true
+      }
+    ]
+  },
+  {
+    "codigo": "PED-7246",
+    "cliente": "SOUZA",
+    "corporacao": "Polícia Penal",
+    "unidade": "",
+    "contato": "",
+    "dataPedido": "08/08/2026",
+    "horarioRegistrado": "09:38",
+    "saldoVolus": 310,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "",
+    "itens": [
+      {
+        "produtoId": "8c6d9fb5-3204-4c16-9826-03e509a3da0d",
+        "nome": "Camisa Gola Careca",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 60,
+        "separado": false
+      },
+      {
+        "produtoId": "34427a1d-34ae-4d6b-b16e-ed98be7e1fcc",
+        "nome": "Gandola Policia Penal",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": true
+      }
+    ]
+  },
+  {
+    "codigo": "PED-6609",
+    "cliente": "SOARES",
+    "corporacao": "Polícia Penal",
+    "unidade": "",
+    "contato": "",
+    "dataPedido": "08/07/2026",
+    "horarioRegistrado": "09:34",
+    "saldoVolus": 1003.39,
+    "saldoPorFora": 229.61,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "",
+    "itens": [
+      {
+        "produtoId": "8c6d9fb5-3204-4c16-9826-03e509a3da0d",
+        "nome": "Camisa Gola Careca",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 3,
+        "precoUnitario": 60,
+        "separado": false
+      },
+      {
+        "produtoId": "24d766a7-5612-4c17-8ae1-5b9c6bfe7603",
+        "nome": "Camisa Gola Polo",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": true
+      },
+      {
+        "produtoId": "c0dd1cf5-7d7e-4a58-b9b4-c45a4aa9d002",
+        "nome": "Camisa UV Manga Longa",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 100,
+        "separado": true
+      },
+      {
+        "produtoId": "34427a1d-34ae-4d6b-b16e-ed98be7e1fcc",
+        "nome": "Gandola Policia Penal",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 250,
+        "separado": true
+      },
+      {
+        "produtoId": "250d03a1-e0d0-4dd0-9da0-9ca849b5d1b8",
+        "nome": "Calça Tática (RipStop)",
+        "tamanho": "44",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": true
+      }
+    ]
+  },
+  {
+    "codigo": "PED-2192",
+    "cliente": "LEONAR.",
+    "corporacao": "Polícia Penal",
+    "unidade": "",
+    "contato": "",
+    "dataPedido": "08/07/2026",
+    "horarioRegistrado": "09:30",
+    "saldoVolus": 1000,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "",
+    "itens": [
+      {
+        "produtoId": "250d03a1-e0d0-4dd0-9da0-9ca849b5d1b8",
+        "nome": "Calça Tática (RipStop)",
+        "tamanho": "44",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": false
+      },
+      {
+        "produtoId": "c0dd1cf5-7d7e-4a58-b9b4-c45a4aa9d002",
+        "nome": "Camisa UV Manga Longa",
+        "tamanho": "GG",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": false
+      },
+      {
+        "produtoId": "8c6d9fb5-3204-4c16-9826-03e509a3da0d",
+        "nome": "Camisa Gola Careca",
+        "tamanho": "GG",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 60,
+        "separado": false
+      }
+    ]
+  },
+  {
+    "codigo": "PED-7589",
+    "cliente": "H.SILVA",
+    "corporacao": "Polícia Penal",
+    "unidade": "",
+    "contato": "",
+    "dataPedido": "08/06/2026",
+    "horarioRegistrado": "09:28",
+    "saldoVolus": 1003.39,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "",
+    "itens": [
+      {
+        "produtoId": "40989823-1fce-4b17-8f66-9c2773b9a494",
+        "nome": "Boné Tático Policia Penal",
+        "tamanho": "M",
+        "cor": "Preto",
+        "quantidade": 3,
+        "precoUnitario": 70,
+        "separado": true
+      },
+      {
+        "produtoId": "8c6d9fb5-3204-4c16-9826-03e509a3da0d",
+        "nome": "Camisa Gola Careca",
+        "tamanho": "GG",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 60,
+        "separado": false
+      }
+    ]
+  },
+  {
+    "codigo": "PED-6476",
+    "cliente": "R. FREITAS",
+    "corporacao": "Polícia Penal",
+    "unidade": "",
+    "contato": "",
+    "dataPedido": "08/06/2026",
+    "horarioRegistrado": "09:26",
+    "saldoVolus": 120,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Devendo",
+    "statusPacote": "Não criado",
+    "observacao": "",
+    "itens": [
+      {
+        "produtoId": "8c6d9fb5-3204-4c16-9826-03e509a3da0d",
+        "nome": "Camisa Gola Careca",
+        "tamanho": "GG",
+        "cor": "Preto",
+        "quantidade": 2,
+        "precoUnitario": 60,
+        "separado": false
+      }
+    ]
+  },
+  {
+    "codigo": "PED-6989",
+    "cliente": "André",
+    "corporacao": "Polícia Penal",
+    "unidade": "",
+    "contato": "",
+    "dataPedido": "08/05/2026",
+    "horarioRegistrado": "08:58",
+    "saldoVolus": 590,
+    "saldoPorFora": 0,
+    "statusPagamento": "Pago",
+    "statusPedido": "Entregue",
+    "statusPacote": "Criado",
+    "observacao": "A calça era Invictus.",
+    "itens": [
+      {
+        "produtoId": "250d03a1-e0d0-4dd0-9da0-9ca849b5d1b8",
+        "nome": "Calça Tática (RipStop)",
+        "tamanho": "46",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 250,
+        "separado": true
+      },
+      {
+        "produtoId": "8c6d9fb5-3204-4c16-9826-03e509a3da0d",
+        "nome": "Camisa Gola Careca",
+        "tamanho": "GG",
+        "cor": "Preto",
+        "quantidade": 4,
+        "precoUnitario": 60,
+        "separado": true
+      },
+      {
+        "produtoId": "24d766a7-5612-4c17-8ae1-5b9c6bfe7603",
+        "nome": "Camisa Gola Polo",
+        "tamanho": "G",
+        "cor": "Preto",
+        "quantidade": 1,
+        "precoUnitario": 100,
+        "separado": true
+      }
+    ]
+  }
+]
